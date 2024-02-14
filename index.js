@@ -36,7 +36,7 @@ app.use("/api/posts" , postRoute);
 // app.get("/users",(req,res)=>{
 //     res.send("welcome to users")
 // })
-app.listen(8800, () => {
+app.listen(8800,() => {
   console.log("Backend server is running. You got this!");
 });
 
